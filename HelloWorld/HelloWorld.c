@@ -35,6 +35,35 @@ int main(int argc, char * argv[]) {
 
    return EXIT_SUCCESS;
 }
+void (int z){
+	
+	int n;
+	printf("digite uma opcao");
+	scanf("%d",&n);
+	
+	switch (n){
+	
+	case 1:
+		printf("novo algoritmo");
+		 break;
+	case 2: 
+	printf("atualizar um algoritmo existente");
+	break;
+	
+	case 3:
+	
+	printf("erro");
+	break;	
+
+  case 4 :
+  	printf(" Proposta ao Repositório");
+  	
+  	break;
+}
+printf ("\n\n\nobrigado");
+
+
+}
 
 void add_entry(char * fullName, char * githubUsername) {
    CensusEntry_t * entry = malloc(sizeof(CensusEntry_t));
@@ -50,4 +79,8 @@ void add_entry(char * fullName, char * githubUsername) {
       tail->next = entry;
    }
    tail = entry;
+
+
+
+
 }
